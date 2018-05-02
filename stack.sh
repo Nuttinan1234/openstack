@@ -1469,7 +1469,7 @@ else
 fi
 
 # Dump out the time totals
-time_totals
+#time_totals
 
 # Using the cloud
 # ===============
@@ -1507,12 +1507,12 @@ if [[ "$USE_SYSTEMD" == "True" ]]; then
     echo
     echo "Services are running under systemd unit files."
     echo "For more information see: "
-    echo "https://docs.openstack.org/devstack/latest/systemd.html"
+    echo "https://docs.openstack.org"
     echo
 fi
 
 # Useful info on current state
-cat /etc/devstack-version
+#cat /etc/devstack-version
 echo
 
 # Indicate how long this took to run (bash maintained variable ``SECONDS``)
